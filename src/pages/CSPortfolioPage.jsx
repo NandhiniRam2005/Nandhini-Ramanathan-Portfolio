@@ -367,7 +367,7 @@ const CSPortfolioPage = () => (
       gap: '8px',
     }}
   >
-    {["Life Investor", "Munchkin Sprite Editor"].includes(proj.title) && (
+    {/* {["Life Investor", "Munchkin Sprite Editor"].includes(proj.title) && (
     <a
       href="#"
       target="_blank"
@@ -394,7 +394,7 @@ const CSPortfolioPage = () => (
     >
       🎮 Play Online
     </a>
-    )}
+    )} */}
 
     {/* 📄 CITI Certification */}
 {proj.title === "Independent Study: Data Visualization & High-Performance Computing" && (
