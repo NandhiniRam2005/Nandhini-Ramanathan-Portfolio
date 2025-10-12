@@ -494,4 +494,91 @@ nav a:hover {
   .contact-email {
     font-size: 1.4rem;
   }
+  /* -----------------------------------
+   EXTRA RESPONSIVE FIXES
+----------------------------------- */
+
+/* 🔹 Nav & Header */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+    background: #eceadf;
+    padding: 1rem;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    display: none; /* toggle this with JS if you have a menu button */
+    border-radius: 0 0 8px 8px;
+  }
+
+  .nav-open ul {
+    display: flex;
+  }
+
+  .right-nav {
+    display: none; /* hide desktop nav */
+  }
+}
+
+/* 🔹 Project cards in CS Portfolio */
+@media (max-width: 1024px) {
+  .cs-portfolio-page section div {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .cs-portfolio-page section div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* 🔹 Hero text scaling */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    padding: 0 16px;
+  }
+}
+
+/* 🔹 Video/Image cards */
+@media (max-width: 768px) {
+  video, img {
+    height: auto !important;
+    max-height: 250px;
+    width: 100%;
+    border-radius: 8px;
+  }
+}
+
+/* 🔹 Contact Page Form */
+@media (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    font-size: 0.95rem;
+  }
+}
+
+/* 🔹 Footer */
+@media (max-width: 600px) {
+  footer,
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
 }
