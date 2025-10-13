@@ -201,7 +201,7 @@ const handleFooterNavClick = (to) => (e) => {
 
             {/* Email */}
             <a
-              href="mailto:nandhini@email.com"
+              href="mailto:nandhini2005@outlook.com"
               title="Email"
               style={{ color: '#ffb380' }}
             >
